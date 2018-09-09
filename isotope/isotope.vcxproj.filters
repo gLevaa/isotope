@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="logger.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="crypto.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="filescan.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="config.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="filescan.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="logger.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{b0d79608-36d5-48b8-88da-9946b1377082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{94f6fbf5-afab-49b9-a1c9-189a5cfff2bd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
