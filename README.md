@@ -8,6 +8,10 @@ isotope is a ransomware base with full computer scan and file encryption and dec
 
 `c_crypto::decrypt_file(char* input, char* output)` - takes an input file, decrypts it and outputs the decrypted version to the file provided in `char* output`. <br>
 
+`c_crypto::encrypt_all()` - encrypts every file on the pc
+
+`c_crypto::decrypt_all()` - decrypts every file on the pc
+
 `c_crypto::base64_encode(std::string &input)` - takes an `std::string` and encodes it with base64. <br>
 
 `c_crypto::base64_decode(std::string &input)` - takes an `std::string` and decodes it from base64 back to its original form. <br>
