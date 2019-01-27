@@ -2,7 +2,7 @@
 isotope is a ransomware base with full computer scan and file encryption and decryption capabilities.
 
 ## Functions
-`c_crypto::make_keys()` - generates an an encryption key and IV then assigns it to the `cryptkey key` object. <br>
+`c_crypto::make_keys()` - generates an encryption key and IV then assigns it to the `cryptkey key` object. <br>
 
 `c_crypto::encrypt_file(char* input, char* output)` - takes an input file, encrypts it and outputs the encrypted version to the file provided in `char* output`. <br>
 
